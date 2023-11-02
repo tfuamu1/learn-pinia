@@ -1,4 +1,3 @@
-// import { ref,computed } from "vue"
 import { defineStore } from 'pinia'
 
 //defineStore() の第2引数に Options オブジェクトを指定して定義する例
@@ -34,6 +33,8 @@ export const useCounterStore = defineStore('counter', {
 })
 
 // // defineStore()の第2引数にSetup関数（リアクティブなオブジェクトを返す関数）で定義する例
+// import { ref,computed } from "vue"
+// import { defineStore } from 'pinia'
 // export const useCounterStore = defineStore('counter', () => {
 //     //ref()を使ってリアクティブなデータの初期値を定義
 //     const counter = ref(0)
